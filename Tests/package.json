@@ -1,0 +1,28 @@
+{
+  "name": "testovi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "mocha": {
+    "parallel": false
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "chromedriver": "^131.0.5",
+    "mocha": "^11.0.1",
+    "selenium-webdriver": "^4.27.0"
+  },
+  "dependencies": {
+    "chai": "^5.1.2",
+    "ts-node": "^10.9.2"
+  }
+}
